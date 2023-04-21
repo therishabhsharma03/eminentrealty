@@ -13,6 +13,23 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+ /* edits -**************************** */
+
+ .white{
+  color: white;
+ }
+ .white-15{
+  color: #cacaca;
+  font-size: 15px;
+ }
+ .gold{
+  color: #ffc107;
+ }
+ .bglight{
+  color: #ffc107;
+ }
  .main{
   font-size: larger;
  }
@@ -68,7 +85,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff; }
+  --bs-body-bg: #000000; }
 
 *,
 *::before,
@@ -1814,7 +1831,7 @@ progress {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0.25rem;
+  border-radius: 20px;
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -6188,6 +6205,9 @@ textarea.form-control-lg {
 .border-5 {
   border-width: 5px !important; }
 
+.w-15 {
+  width: 15% !important; }
+
 .w-25 {
   width: 25% !important; }
 
@@ -6591,6 +6611,8 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important; }
+.self {
+  margin-bottom: -2.5rem !important; }
 
 .mb-5 {
   margin-bottom: 3rem !important; }
@@ -9615,7 +9637,8 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, .logo {
   font-family: "Work Sans", sans-serif;
-  color: #00204a; }
+  /* color: #ffc107; */
+ }
 
 a {
   -webkit-transition: .3s all ease;
@@ -9635,6 +9658,7 @@ a {
 
 textarea {
   height: auto !important; }
+
 
 #overlayer {
   width: 100%;
@@ -9657,12 +9681,12 @@ textarea {
   transform: translate(-50%, -50%); }
 
 .menu-bg-wrap {
-  background-color: #005555;
-  padding: 10px 30px;
+  background-color: #000000;
+  padding: 0px 30px;
   position: relative;
   float: left;
   width: 100%;
-  border-radius: 7px;
+  border-radius: 40px;
   -webkit-box-shadow: 0 15px 30px -15px rgba(0, 0, 0, 0.1);
   box-shadow: 0 15px 30px -15px rgba(0, 0, 0, 0.1); }
 
@@ -9761,7 +9785,7 @@ textarea {
 
 .testimonial blockquote {
   font-style: 18px;
-  color: #000; }
+  color: #fff; }
 
 .bg-image {
   background-size: cover;
@@ -9799,7 +9823,7 @@ textarea {
   -o-transition: .3s all ease;
   transition: .3s all ease; }
   .btn.btn-primary {
-    background: #005555;
+    background: #3b3b3b;
     color: #fff; }
   .btn:hover {
     top: -2px;
@@ -9967,10 +9991,10 @@ textarea {
   .feature-h .wrap-icon {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 80px;
-    flex: 0 0 80px;
-    height: 80px;
-    background: #efefef;
-    color: #000;
+    flex: 0 0 60px;
+    height: 60px;
+    background: #c9a209;
+    color: #000000;
     position: relative;
     border-radius: 50%;
     border: 2px solid transparent;
@@ -9993,13 +10017,13 @@ textarea {
     .feature-h .feature-text .heading {
       font-size: 18px; }
   .feature-h:hover .wrap-icon, .feature-h:focus .wrap-icon {
-    border: 2px solid #00204a;
+    border: 2px solid #fff;
     background-color: transparent;
     -webkit-transform: scale(1.07);
     -ms-transform: scale(1.07);
     transform: scale(1.07); }
   .feature-h:hover [class^="icon-"], .feature-h:focus [class^="icon-"] {
-    color: #00204a; }
+    color: #fff; }
 
 .img-about img {
   position: relative;
@@ -10242,7 +10266,7 @@ textarea {
   padding: 7px 20px;
   border-radius: 30px;
   background: rgba(0, 32, 74, 0.1);
-  color: #00204a;
+  color: #ffffff ;
   text-align: center;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
