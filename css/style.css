@@ -15,14 +15,39 @@
  */
 
 
- /* edits -**************************** */
-
+ /* edits -**************************** */s
+ .bgg{
+background-color: #ff2e2e;
+ }
+.what{
+  
+  
+  text-align: justify;
+  width: 50%
+  ;
+}
  .white{
   color: white;
  }
  .white-15{
   color: #cacaca;
   font-size: 15px;
+ }
+ .white-18{
+  color: #cacaca;
+  font-size: 18px;
+ }
+ .white-18{
+  color: #cacaca;
+  font-size: 18px;
+ }
+ .white-40{
+  color: #cacaca;
+  font-size: 40px;
+ }
+ .white-60{
+  color: #cacaca;
+  font-size: 60px;
  }
  .gold{
   color: #ffc107;
@@ -577,7 +602,7 @@ progress {
   .row > * {
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
@@ -6206,7 +6231,7 @@ textarea.form-control-lg {
   border-width: 5px !important; }
 
 .w-15 {
-  width: 15% !important; }
+  width: 23% !important; }
 
 .w-25 {
   width: 25% !important; }
@@ -9240,7 +9265,7 @@ textarea.form-control-lg {
     .site-nav .site-navigation .site-menu > li {
       display: inline-block; }
       .site-nav .site-navigation .site-menu > li > a {
-        font-size: 14px;
+        font-size: 17px;
         padding: 10px 15px;
         display: inline-block;
         text-decoration: none !important;
@@ -10184,9 +10209,10 @@ textarea {
   background-color: rgba(0, 32, 74, 0.05); }
 
 .box-feature {
-  background: #fff;
+  background: #d8d8d8;
   border-radius: 4px;
   padding: 30px;
+  box-shadow: -9px 10px 17px #7e7e7e;
   margin-bottom: 30px; }
   .box-feature h3, .box-feature .h3 {
     font-size: 16px;
@@ -10422,7 +10448,7 @@ nav[aria-label="breadcrumb"] li:before {
         }
         
         .loan-calculator .top {
-          background: #767676;
+          background: #000000;
           color: #fff;
           padding: 32px;
         }
