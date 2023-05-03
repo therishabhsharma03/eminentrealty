@@ -21,9 +21,9 @@ background-color: #ff2e2e;
  }
 .what{
   
-  
-  text-align: justify;
-  width: 50%
+  margin-left: 15%;
+  text-align: left;
+  width: 70%
   ;
 }
  .white{
@@ -10506,7 +10506,7 @@ nav[aria-label="breadcrumb"] li:before {
         }
         
         .loan-calculator .calculate-btn {
-          background: #e63946;
+          background: #000000;
           color: #fff;
           border: none;
           padding: 8px 32px;
